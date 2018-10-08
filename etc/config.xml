@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <customer>
+            <create_account>
+                <fixed_redirect_on>0</fixed_redirect_on>
+                <fixed_redirect_destination></fixed_redirect_destination>
+            </create_account>
+            <startup>
+                <fixed_redirect_on>0</fixed_redirect_on>
+                <fixed_redirect_destination></fixed_redirect_destination>
+            </startup>
+        </customer>
+    </default>
+</config>
