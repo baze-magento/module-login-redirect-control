@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <section id="customer">
+            <group id="create_account">
+                <field id="fixed_redirect_on" translate="label comment" type="select" sortOrder="998" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Redirect Customer to Specific Page after Registering</label>
+                    <comment>Customer will go to their account page if "No" is selected.</comment>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                </field>
+                <field id="fixed_redirect_destination" translate="label comment" type="text" sortOrder="999" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Specific Redirect Destination Path</label>
+                    <comment>Relative to the customer's store. Blank = store homepage. Example: "customer/account"</comment>
+                </field>
+            </group>
+            <group id="startup">
+                <field id="fixed_redirect_on" translate="label comment" type="select" sortOrder="5" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Redirect Customer to Specific Page after Logging In</label>
+                    <comment>Customer will stay on the current page if "No" is selected.</comment>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                </field>
+                <field id="fixed_redirect_destination" translate="label comment" type="text" sortOrder="6" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Specific Redirect Destination Path</label>
+                    <comment>Relative to the customer's store. Blank = store homepage. Example: "customer/account"</comment>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>
