@@ -1,6 +1,6 @@
 {
     "name": "baze/module-login-redirect-control",
-    "description": "Force logins to go to the homepage",
+    "description": "Force logins to go to a configured destination",
     "require": {
         "php": "~5.6.0|~7.0.0|~7.1.0"
     },
@@ -8,7 +8,7 @@
     "autoload": {
         "files": [ "registration.php" ],
         "psr-4": {
-            "Baze\\LoginToHomepage\\": ""
+            "Baze\\LoginRedirectControl\\": ""
         }
     }
 }
