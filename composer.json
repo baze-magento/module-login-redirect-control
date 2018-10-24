@@ -1,5 +1,5 @@
 {
-    "name": "bazedk/magento-login-to-homepage",
+    "name": "baze/module-login-redirect-control",
     "description": "Force logins to go to the homepage",
     "require": {
         "php": "~5.6.0|~7.0.0|~7.1.0"
