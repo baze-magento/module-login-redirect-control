@@ -1,6 +1,5 @@
-# module-login-redirect-control
+# Login Redirect Control
 Makes users automatically login to a specified URL rather than using the referrer URL.
-
 
 ## Architecture
 Modules that require theme changes <- Core theme -> Child "skin" themes
